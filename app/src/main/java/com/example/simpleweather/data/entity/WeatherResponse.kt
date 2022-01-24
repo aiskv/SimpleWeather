@@ -1,5 +1,8 @@
 package com.example.simpleweather.data.entity
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class WeatherResponse(
     val base: String,
     val clouds: Clouds,

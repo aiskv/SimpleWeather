@@ -11,7 +11,7 @@
         style="@style/TextAppearance.MaterialComponents.Headline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="100dp"
+        android:layout_margin="48dp"
         android:textAllCaps="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
 
     <TextView
         android:id="@+id/main"
-        style="@style/TextAppearance.MaterialComponents.Headline1"
+        style="@style/TextAppearance.MaterialComponents.Headline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
@@ -33,7 +33,7 @@
 
     <TextView
         android:id="@+id/temp"
-        style="@style/TextAppearance.MaterialComponents.Headline1"
+        style="@style/TextAppearance.MaterialComponents.Headline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
@@ -45,7 +45,7 @@
 
     <TextView
         android:id="@+id/description"
-        style="@style/TextAppearance.MaterialComponents.Headline2"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
@@ -58,7 +58,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="24dp"
+        android:layout_margin="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description"
